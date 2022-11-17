@@ -9,7 +9,7 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "My Resume.pdf"
-profile_pic = current_dir / "assets" / "profile.jpeg"
+profile_pic = current_dir / "assets" / "profile.png"
 
 
 # --- GENERAL SETTINGS ---
@@ -88,7 +88,7 @@ st.write(
 - 📊 Data Visulization: Matplotlib, Seaborn, Plotly
 - 📚 Tools: Jupyter Notebook, Google Colab, PyCharm, VS Code
 -    Web: Flask, FastAPI, Streamlit
--    Operating Systems: Linux
+- :computer: Operating Systems: Linux
 - 📈 Machine Learning: Regression, Classification, Clustering, Anomaly Detection
 - 📊 Deep Learning: ANN, CNN, RNN, LSTM
 - Computer Vision: OpenCV, YOLO, ResNet, VGG, UNet, StrongSort
@@ -123,3 +123,30 @@ st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
+    
+
+# --- Course & Certificates --- 
+st.write('\n')
+st.subheader("Course & Certificates")
+st.write("---")
+st.write(
+"""
+:black_circle: Object-Oriented Programming in Python
+"""
+)
+
+
+# --- Education ---  
+st.write('\n')
+st.subheader("Education")
+st.write("---")
+
+# --- Activity ---
+st.write('\n')
+st.subheader("Activity")
+st.write("---")
+
+# --- Languages ---
+st.write('\n')
+st.subheader("Languages")
+st.write("---")
